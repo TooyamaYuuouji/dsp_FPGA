@@ -12,7 +12,7 @@ logic[10:0] din;
 logic signed[21:0] dout;
 
 //========================================
-// 50MHz  sys_clk generating
+// 50MHz sys_clk generating
 initial begin
      sys_clk = 1'b0 ;
     forever begin
@@ -22,12 +22,11 @@ initial begin
 end
 
 //========================================
-//  reset
+// reset
 initial begin
     sys_rstn = 1'b0;
     #300;
     sys_rstn = 1'b1;
-    
 end
 
 //========================================
@@ -40,10 +39,10 @@ string AFTER_FILTER_FILEPATH = $sformatf("%s/%s", FILEPATH, AFTER_FILTER_FILENAM
 integer fid;
 
 //========================================
-// read cos data into register
-localparam SIN_DATA_NUM = 2000;
+// read signal data into register
+localparam SIM_DATA_NUM = 2000;
 
-logic[10:0] sim_din[0:SIN_DATA_NUM];
+logic[10:0] sim_din[0:SIM_DATA_NUM];
 int index;
 initial begin
     din = 0;
@@ -55,10 +54,11 @@ initial begin
 
     #500;
     en = 1;
-    repeat(SIN_DATA_NUM) begin
+    repeat(SIM_DATA_NUM) begin
         @(posedge sys_clk);
         din = sim_din[index];
         index ++;
+
         $fdisplay(fid, "%d", dout);
     end
     $fclose(fid);

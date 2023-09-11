@@ -10,6 +10,14 @@
   
   + single_cic：单级CIC滤波器，无降采样部分
 
++ PP：Polyphase相关
+  
+  + PPD：Polyphase Decimator，多相抽取器
+    
+    + direct_ppd：直接实现的多相抽取器
+  
+  + PPF：Polyphase Filter，多相滤波器
+
 ---
 
 ## Introduction

@@ -8,7 +8,7 @@
 
 ### 操作系统
 
-Windows 11 家庭版
++ Windows 11 家庭版
 
 ### 使用软件
 
@@ -36,9 +36,11 @@ Windows 11 家庭版
     
     + direct_ppd：直接实现的多相抽取器
   
-  + PPF：Polyphase Filter，多相滤波器
+  + PPF：Polyphase Filter，多相滤波器，也被称为信道化接收结构
 
     + direct_ppf：直接实现的多相滤波器。没有前置降采样结构，使用系数矩阵相乘的方式实现
+
+    + ppf：标准的多相滤波器结构。使用前置系数、后置系数、FFT运算实现整个结构。
 
 ## 文档
 

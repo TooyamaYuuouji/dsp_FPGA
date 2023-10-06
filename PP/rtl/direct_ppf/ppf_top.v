@@ -24,14 +24,14 @@ module ppf_top (
     output wire signed[63:0] channel7_data_o
 );
 
-localparam FIR0_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch0_h_hex.txt";
-localparam FIR1_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch1_h_hex.txt";
-localparam FIR2_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch2_h_hex.txt";
-localparam FIR3_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch3_h_hex.txt";
-localparam FIR4_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch4_h_hex.txt";
-localparam FIR5_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch5_h_hex.txt";
-localparam FIR6_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch6_h_hex.txt";
-localparam FIR7_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch7_h_hex.txt";
+localparam FIR0_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch0_h_hex.txt";
+localparam FIR1_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch1_h_hex.txt";
+localparam FIR2_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch2_h_hex.txt";
+localparam FIR3_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch3_h_hex.txt";
+localparam FIR4_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch4_h_hex.txt";
+localparam FIR5_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch5_h_hex.txt";
+localparam FIR6_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch6_h_hex.txt";
+localparam FIR7_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch7_h_hex.txt";
 
 wire signed[63:0] ch0_fir_dout;
 wire signed[63:0] ch1_fir_dout;

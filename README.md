@@ -27,7 +27,7 @@
   + single_cic：单级CIC滤波器，无降采样部分
 
 + FIR：FIR滤波器
-
+  
   + serial_fir：串行结构的FIR滤波器，滤波器系数由Matlab归一化
 
 + PP：Polyphase相关
@@ -37,9 +37,11 @@
     + direct_ppd：直接实现的多相抽取器
   
   + PPF：Polyphase Filter，多相滤波器，也被称为信道化接收结构
-
+    
     + direct_ppf：直接实现的多相滤波器。没有前置降采样结构，使用系数矩阵相乘的方式实现
-
+    
+    + s_axis_direct_ppf：带axis接口的ppf，使用wrapper模拟前置降采样。~~模块之间似乎存在时序问题，不定时解决中~~
+    
     + ppf：标准的多相滤波器结构。使用前置系数、后置系数、FFT运算实现整个结构。
 
 ## 文档

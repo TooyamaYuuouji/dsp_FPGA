@@ -70,14 +70,14 @@ initial begin
     end
 end
 
-localparam SIGNAL0_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch0_signal_hex.txt";
-localparam SIGNAL1_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch1_signal_hex.txt";
-localparam SIGNAL2_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch2_signal_hex.txt";
-localparam SIGNAL3_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch3_signal_hex.txt";
-localparam SIGNAL4_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch4_signal_hex.txt";
-localparam SIGNAL5_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch5_signal_hex.txt";
-localparam SIGNAL6_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch6_signal_hex.txt";
-localparam SIGNAL7_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/ppf_v2/src/ch7_signal_hex.txt";
+localparam SIGNAL0_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch0_signal_hex.txt";
+localparam SIGNAL1_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch1_signal_hex.txt";
+localparam SIGNAL2_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch2_signal_hex.txt";
+localparam SIGNAL3_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch3_signal_hex.txt";
+localparam SIGNAL4_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch4_signal_hex.txt";
+localparam SIGNAL5_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch5_signal_hex.txt";
+localparam SIGNAL6_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch6_signal_hex.txt";
+localparam SIGNAL7_FILEPATH = "D:/Code/Proj/filter_FPGA/PP/rtl/direct_ppf/src/ch7_signal_hex.txt";
 
 //========================================
 // read signal data into register and driving
